@@ -20,6 +20,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  console.log("test");
+  
   return (
     <html lang="en">
       <body
@@ -30,5 +32,5 @@ export default function RootLayout({ children }) {
         </Suspense>
       </body>
     </html>
-  );
+  );``
 }
